@@ -1,4 +1,4 @@
-# ADO.Pipelines.Templates.frameWork.common.pipeline - triggerPipeline
+# triggerPipeline
 
 
 ## Pipeline Requirements
@@ -49,7 +49,7 @@ The following example showcases how to use this template in a systematic approac
     repositories:
       - repository: Template
         type: github
-        name: your_username/ADO.Pipelines.Templates
+         name:  your_username/Repo_name
         ref: <respective branch name>
         endpoint: 'githubServiceConnectioNname'
 
